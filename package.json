@@ -1,0 +1,28 @@
+{
+  "name": "blog-db",
+  "version": "1.0.0",
+  "description": "simple backend noder server using mongo db",
+  "main": "src/index.js",
+  "scripts": {
+    "test-mongo" : "node src/test.js",
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minnas/blog-db.git"
+  },
+  "author": "Minna Salonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minnas/blog-db/issues"
+  },
+  "homepage": "https://github.com/minnas/blog-db#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "date-and-time": "^0.6.2",
+    "mongoose": "^5.3.1",
+    "nodemon": "^1.18.4"
+  }
+}
